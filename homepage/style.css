@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto',sans-serif;
+}
+body{
+background-color: aqua;
+}
+body::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    opacity: 0.5;
+    /* background: aqua; */
+
+   
+    /* background: black; */
+}
+.santosh{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 430px;
+    padding: 60px;
+    border-radius: 4px;
+    background: greenyellow;
+    transform: translate(-50%,-50%);
+
+}
+.santosh h2{
+    font-size: 2rem;
+}
+.santosh form{
+    margin: 25px 0 65px;
+
+}
+form.san{
+    position: relative;
+    height:50px;
+    margin-bottom: 16px;
+    
+
+}
+
+.san input{
+    width: 100%;
+    padding: 16px 0;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    /* color: #fff; */
+    color: black;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 4px;
+
+}
+form button{
+    width: 100%;
+    padding: 16px 0;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 5000;
+    border-radius: 4px;
+    background: #e5091e;
+    margin: 7px;
+    transition: 0.1s ease;
+}
